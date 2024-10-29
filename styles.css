@@ -17,18 +17,18 @@ header {
     background: #0b7cf5;
     color: white;
     padding: 20px 0;
-    text-align: center;
-    box-shadow:0 0 4px rgba(0,0,0,0.4);
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding-bottom: 1px;
+    text-align: right;
 }
 
 nav ul li {
     display: inline-flex;
     margin: 0 15px;
+    text-align: right;
 }
 
 nav ul li a {
@@ -43,12 +43,25 @@ nav ul li a:hover {
 
 /* Main Content */
 main {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 32px auto;
     padding: 20px;
     background: rgb(255, 255, 255);
     box-shadow: 0 2px 30px #5c5959;
     border-radius: 10px;
+}
+
+#title-head{
+    position: absolute;
+    left:50px
+}
+
+h1#title-head{
+    top:0px;
+}
+
+p#title-head{
+    top:50px
 }
 
 h1, h2 {
